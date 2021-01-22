@@ -24,6 +24,7 @@ function ageChecker(age) {
  else if (age<13) {
   return "You are a kid"
 } else {
+  "You are a grownup"
 }
 
 }
