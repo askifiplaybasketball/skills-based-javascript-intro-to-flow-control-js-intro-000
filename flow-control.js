@@ -21,8 +21,13 @@ function teenager(age){
 function ageChecker(age) {
   if (age>=13 && age<=19) {
   return "You are a teenager!" }
-  else {
-    return "You are a kid"
+} else if (age<13 || age>19) {
+  return "You are a kid"
+  // execute this code if `conditionToTest1` statement is falsey AND `conditionToTest2` is truthy
+} else {
+  return "You are a grownup"
+  // execute this code if none of the other conditions are met
+}
 
   }
 
